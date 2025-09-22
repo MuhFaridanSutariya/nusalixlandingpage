@@ -3,8 +3,8 @@ import {
   IconDatabase,
   IconBrain,
   IconCode,
-  IconCloud,
-  IconShield,
+  IconWifi,
+  IconBrush,
   IconDeviceMobile,
 } from "@tabler/icons-react";
 
@@ -75,27 +75,27 @@ const services = [
     icon: <IconCode className="h-6 w-6 text-emerald-400" />,
   },
   {
-    title: "Cloud Solutions & Infrastructure",
+    title: "Integrasi IoT",
     description:
-      "Pengelolaan infrastruktur cloud yang aman, reliable, dan cost-effective untuk semua kebutuhan bisnis.",
+      "Solusi Internet of Things untuk menghubungkan perangkat dan sistem guna meningkatkan efisiensi operasional.",
     header: (
       <ServiceSkeleton
         gradient="from-cyan-500 to-cyan-800"
-        customImage="https://images.unsplash.com/photo-1544197150-b99a580bb7a8?w=1920&h=1080&fit=crop&crop=center"
+        customImage="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=1920&h=1080&fit=crop&crop=center"
       />
     ),
-    icon: <IconCloud className="h-6 w-6 text-cyan-400" />,
+    icon: <IconWifi className="h-6 w-6 text-cyan-400" />,
   },
   {
-    title: "Cybersecurity",
-    description: "Perlindungan sistem dan data dengan teknologi keamanan terdepan.",
+    title: "Jasa Branding & Design",
+    description: "Layanan kreatif untuk membangun identitas brand yang kuat dan desain visual yang menarik.",
     header: (
       <ServiceSkeleton
         gradient="from-rose-500 to-rose-800"
-        customImage="https://images.unsplash.com/photo-1563206767-5b18f218e8de?w=1920&h=1080&fit=crop&crop=center"
+        customImage="https://images.unsplash.com/photo-1561070791-2526d30994b5?w=1920&h=1080&fit=crop&crop=center"
       />
     ),
-    icon: <IconShield className="h-6 w-6 text-rose-400" />,
+    icon: <IconBrush className="h-6 w-6 text-rose-400" />,
   },
   {
     title: "Mobile App Development",

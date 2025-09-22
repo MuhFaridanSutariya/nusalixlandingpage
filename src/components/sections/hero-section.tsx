@@ -11,7 +11,7 @@ export default function HeroSection() {
             <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative">
                 <div className="text-center max-w-4xl mx-auto">
                     <motion.div
-                        className="text-xl md:text-4xl font-bold text-balance mb-6 text-white" // Ubah dari text-2xl md:text-6xl
+                        className="text-xl md:text-4xl font-bold text-balance mb-6 text-white"
                         initial={{ opacity: 0, y: 50 }}
                         animate={{ opacity: 1, y: 0 }}
                         transition={{ duration: 0.8, ease: "easeOut" }}
@@ -20,13 +20,13 @@ export default function HeroSection() {
                             Jadikan teknologi sebagai keunggulan kompetitif Anda dengan <br /> {" "}
                             <TextType
                                 text={[
-                                    "Data Management",
-                                    "Artificial Intelligence",
-                                    "Software Development",
+                                    "Manajemen Data",
+                                    "Kecerdasan Buatan",
+                                    "Pengembangan Perangkat Lunak",
                                 ]}
                                 typingSpeed={100}
                                 loop
-                                className="gradient-text text-xl md:text-4xl font-bold" // Ubah dari text-2xl md:text-6xl
+                                className="gradient-text text-xl md:text-4xl font-bold"
                             />
                         </span>
                     </motion.div>
@@ -35,23 +35,22 @@ export default function HeroSection() {
                         className="text-xl text-white/80 text-pretty mb-8 max-w-2xl mx-auto"
                         initial={{ opacity: 0, y: 30 }}
                         animate={{ opacity: 1, y: 0 }}
-                        transition={{ duration: 0.8, delay: 2, ease: "easeOut" }} // Delay sampai typing selesai
+                        transition={{ duration: 0.8, delay: 2, ease: "easeOut" }}
                     >
-                        We specialize in Data Management, Artificial Intelligence, and Software Development to help your business
-                        thrive in the digital age.
+                        Kami mengkhususkan diri dalam Manajemen Data, Kecerdasan Buatan, dan Pengembangan Perangkat Lunak untuk membantu bisnis Anda berkembang di era digital.
                     </motion.p>
 
                     <motion.div
                         className="flex flex-col sm:flex-row gap-4 justify-center mb-16"
                         initial={{ opacity: 0, y: 30 }}
                         animate={{ opacity: 1, y: 0 }}
-                        transition={{ duration: 0.8, delay: 2.5, ease: "easeOut" }} // Delay lebih lama
+                        transition={{ duration: 0.8, delay: 2.5, ease: "easeOut" }}
                     >
                         <Button
                             size="lg"
                             className="bg-primary text-primary-foreground hover:bg-primary/90 transition-all duration-300 pulse-glow"
                         >
-                            Get Started Today
+                            Mulai Sekarang
                             <ArrowRight className="ml-2 h-5 w-5" />
                         </Button>
                         <Button
@@ -59,7 +58,7 @@ export default function HeroSection() {
                             variant="outline"
                             className="border-2 border-white/30 bg-white/10 backdrop-blur-sm text-white hover:bg-white/20 transition-all duration-300"
                         >
-                            View Our Work
+                            Lihat Karya Kami
                         </Button>
                     </motion.div>
 
@@ -83,9 +82,9 @@ export default function HeroSection() {
                             >
                                 <Database className="h-8 w-8 text-primary" />
                             </motion.div>
-                            <h3 className="font-semibold text-lg mb-3 glass-card-heading">Data Management</h3>
+                            <h3 className="font-semibold text-lg mb-3 glass-card-heading">Manajemen Data</h3>
                             <p className="text-muted-foreground text-center leading-relaxed">
-                                Optimize your data infrastructure for better insights and performance
+                                Optimalkan infrastruktur data Anda untuk mendapatkan wawasan dan kinerja yang lebih baik
                             </p>
                         </motion.div>
 
@@ -103,9 +102,9 @@ export default function HeroSection() {
                             >
                                 <Brain className="h-8 w-8 text-secondary" />
                             </motion.div>
-                            <h3 className="font-semibold text-lg mb-3 glass-card-heading">Artificial Intelligence</h3>
+                            <h3 className="font-semibold text-lg mb-3 glass-card-heading">Kecerdasan Buatan</h3>
                             <p className="text-muted-foreground text-center leading-relaxed">
-                                Leverage AI to automate processes and gain competitive advantages
+                                Manfaatkan AI untuk mengotomatisasi proses dan mendapatkan keunggulan kompetitif
                             </p>
                         </motion.div>
 
@@ -123,9 +122,9 @@ export default function HeroSection() {
                             >
                                 <Code className="h-8 w-8 text-accent" />
                             </motion.div>
-                            <h3 className="font-semibold text-lg mb-3 glass-card-heading">Software Development</h3>
+                            <h3 className="font-semibold text-lg mb-3 glass-card-heading">Pengembangan Perangkat Lunak</h3>
                             <p className="text-muted-foreground text-center leading-relaxed">
-                                Custom software solutions tailored to your business needs
+                                Solusi perangkat lunak khusus yang disesuaikan dengan kebutuhan bisnis Anda
                             </p>
                         </motion.div>
                     </motion.div>

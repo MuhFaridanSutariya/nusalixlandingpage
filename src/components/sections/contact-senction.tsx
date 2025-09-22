@@ -25,18 +25,17 @@ export default function ContactSection() {
 
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative">
         <div className="text-center mb-16">
-          <h2 className="text-3xl md:text-4xl font-bold text-balance mb-4">Contact Us</h2>
+          <h2 className="text-3xl md:text-4xl font-bold text-balance mb-4">Hubungi Kami</h2>
           <p className="text-xl text-muted-foreground text-pretty max-w-3xl mx-auto leading-relaxed">
-            Ready to transform your business with technology? Get in touch with our team to discuss your project
-            requirements.
+            Siap mentransformasi bisnis Anda dengan teknologi? Hubungi tim kami untuk mendiskusikan kebutuhan proyek Anda.
           </p>
-        </div>
+        </div> 
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
           {/* Contact Options */}
           <div className="glass-card rounded-2xl p-8">
             <h3 className="text-2xl font-semibold mb-6 bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
-              Get in Touch
+              Mari Terhubung
             </h3>
             
             <div className="space-y-4">
@@ -48,7 +47,7 @@ export default function ContactSection() {
                 {copied ? <Check className="mr-3 h-5 w-5" /> : <Copy className="mr-3 h-5 w-5" />}
                 <div className="text-left">
                   <div className="font-semibold">
-                    {copied ? 'Email Copied!' : 'Copy Email Address'}
+                    {copied ? 'Email Berhasil Disalin!' : 'Salin Alamat Email'}
                   </div>
                   <div className="text-sm opacity-80">nusalixtech@gmail.com</div>
                 </div>
@@ -61,13 +60,13 @@ export default function ContactSection() {
                 className="w-full justify-start glass border-green-500/20 hover:bg-green-500/10 h-14"
               >
                 <a 
-                  href="https://wa.me/6285391938708?text=Hi%20Nusalix%20Tech,%20I'm%20interested%20in%20your%20services.%20Can%20we%20discuss%20my%20project?" 
+                  href="https://wa.me/6285391938708?text=Halo%20Nusalix%20Tech,%20saya%20tertarik%20dengan%20layanan%20Anda.%20Bisakah%20kita%20diskusi%20proyek%20saya?" 
                   target="_blank"
                   rel="noopener noreferrer"
                 >
                   <Phone className="mr-3 h-5 w-5 text-green-600" />
                   <div className="text-left">
-                    <div className="font-semibold">General Inquiry</div>
+                    <div className="font-semibold">Konsultasi Umum</div>
                     <div className="text-sm opacity-80">Chat via WhatsApp</div>
                   </div>
                 </a>
@@ -80,14 +79,14 @@ export default function ContactSection() {
                 className="w-full justify-start glass border-green-500/20 hover:bg-green-500/10 h-14"
               >
                 <a 
-                  href="https://wa.me/6285391938708?text=Hi%20Nusalix%20Tech,%20I%20would%20like%20to%20request%20a%20project%20quote.%20Here%20are%20the%20details:%0A%0AProject%20Type:%20[Web%20Development/AI/Data%20Management/IoT/Game%20Development/Branding]%0ATimeline:%20%0ABudget%20Range:%20%0A%0AProject%20Details:%20" 
+                  href="https://wa.me/6285391938708?text=Halo%20Nusalix%20Tech,%20saya%20ingin%20meminta%20penawaran%20proyek.%20Berikut%20detailnya:%0A%0ATipe%20Proyek:%20[Pengembangan%20Web/AI/Manajemen%20Data/IoT/Game/Branding]%0ATimeline:%20%0ARentang%20Budget:%20%0A%0ADetail%20Proyek:%20" 
                   target="_blank"
                   rel="noopener noreferrer"
                 >
                   <Phone className="mr-3 h-5 w-5 text-green-600" />
                   <div className="text-left">
-                    <div className="font-semibold">Request Project Quote</div>
-                    <div className="text-sm opacity-80">Get pricing via WhatsApp</div>
+                    <div className="font-semibold">Minta Penawaran Proyek</div>
+                    <div className="text-sm opacity-80">Dapatkan harga via WhatsApp</div>
                   </div>
                 </a>
               </Button>
@@ -99,14 +98,14 @@ export default function ContactSection() {
                 className="w-full justify-start glass border-green-500/20 hover:bg-green-500/10 h-14"
               >
                 <a 
-                  href="https://wa.me/6285391938708?text=Hi%20Nusalix%20Tech,%20I'm%20interested%20in%20exploring%20a%20partnership%20opportunity.%20Let's%20discuss%20further." 
+                  href="https://wa.me/6285391938708?text=Halo%20Nusalix%20Tech,%20saya%20tertarik%20untuk%20mengeksplorasi%20peluang%20kemitraan.%20Mari%20diskusi%20lebih%20lanjut." 
                   target="_blank"
                   rel="noopener noreferrer"
                 >
                   <Phone className="mr-3 h-5 w-5 text-green-600" />
                   <div className="text-left">
-                    <div className="font-semibold">Partnership Inquiry</div>
-                    <div className="text-sm opacity-80">Collaborate via WhatsApp</div>
+                    <div className="font-semibold">Kemitraan Bisnis</div>
+                    <div className="text-sm opacity-80">Kolaborasi via WhatsApp</div>
                   </div>
                 </a>
               </Button>
@@ -120,7 +119,7 @@ export default function ContactSection() {
                 <a href="tel:+6285391938708">
                   <Phone className="mr-3 h-5 w-5" />
                   <div className="text-left">
-                    <div className="font-semibold">Call Directly</div>
+                    <div className="font-semibold">Telepon Langsung</div>
                     <div className="text-sm opacity-80">+62 853 9193 8708</div>
                   </div>
                 </a>
@@ -129,7 +128,7 @@ export default function ContactSection() {
 
             <div className="mt-6 p-4 bg-primary/5 rounded-lg border border-primary/20">
               <p className="text-sm text-muted-foreground text-center">
-                📱 WhatsApp links open directly in app • 📧 Email can be copied for your convenience
+                📱 Link WhatsApp langsung ke aplikasi • 📧 Email dapat disalin untuk kemudahan Anda
               </p>
             </div>
           </div>
@@ -164,7 +163,7 @@ export default function ContactSection() {
                   <Phone className="h-6 w-6 text-secondary" />
                 </div>
                 <div>
-                  <h3 className="font-semibold text-lg mb-2">Phone</h3>
+                  <h3 className="font-semibold text-lg mb-2">Telepon</h3>
                   <a 
                     href="tel:+6285391938708" 
                     className="text-muted-foreground hover:text-secondary transition-colors"
@@ -181,7 +180,7 @@ export default function ContactSection() {
                   <MapPin className="h-6 w-6 text-accent" />
                 </div>
                 <div>
-                  <h3 className="font-semibold text-lg mb-2">Office</h3>
+                  <h3 className="font-semibold text-lg mb-2">Kantor</h3>
                   <p className="text-muted-foreground">Berau, Kalimantan Timur, Indonesia</p>
                   <p className="text-muted-foreground">Sangata, Kalimantan Timur, Indonesia</p>
                   <p className="text-muted-foreground">Balikapapan, Kalimantan Timur, Indonesia</p>
@@ -195,8 +194,8 @@ export default function ContactSection() {
                   <Clock className="h-6 w-6 text-primary" />
                 </div>
                 <div>
-                  <h3 className="font-semibold text-lg mb-2">Business Hours</h3>
-                  <p className="text-muted-foreground">24/7 Support, All Year</p>
+                  <h3 className="font-semibold text-lg mb-2">Jam Operasional</h3>
+                  <p className="text-muted-foreground">Dukungan 24/7, Sepanjang Tahun</p>
                 </div>
               </div>
             </div>

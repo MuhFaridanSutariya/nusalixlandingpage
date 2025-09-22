@@ -1,5 +1,5 @@
 import { Button } from "../ui/button"
-import { Database, Brain, Code, BarChart, Gamepad, Cloud } from "lucide-react"
+import { Database, Brain, Code, Wifi, Palette, Gamepad } from "lucide-react"
 
 export default function ServicesSection() {
   const services = [
@@ -25,11 +25,11 @@ export default function ServicesSection() {
       features: ["Web Applications", "Mobile Development", "API Development", "Enterprise Solutions"],
     },
     {
-      icon: BarChart,
-      title: "Business Intelligence",
+      icon: Wifi,
+      title: "Integrasi IoT",
       description:
-        "Transform your data into actionable insights with our BI solutions, dashboards, and reporting tools.",
-      features: ["Interactive Dashboards", "Real-time Reporting", "Data Visualization", "KPI Monitoring"],
+        "Solusi Internet of Things untuk menghubungkan perangkat, sensor, dan sistem untuk meningkatkan efisiensi operasional bisnis Anda.",
+      features: ["Sensor & Device Integration", "Real-time Monitoring", "Smart Automation", "Data Collection & Analytics"],
     },
     {
       icon: Gamepad,
@@ -39,11 +39,11 @@ export default function ServicesSection() {
       features: ["Prototyping & Game Design (GDD)", "Unity/Unreal cross-platform build", "Performance, QA & store release", "Multiplayer & backend (auth, matchmaking, leaderboard)"],
     },
     {
-      icon: Cloud,
-      title: "Cloud Solutions",
+      icon: Palette,
+      title: "Jasa Branding & Design",
       description:
-        "Migrate and optimize your infrastructure with our cloud services including AWS, Azure, and Google Cloud Platform.",
-      features: ["Cloud Migration", "Infrastructure Optimization", "DevOps Implementation", "Scalability Solutions"],
+        "Layanan kreatif untuk membangun identitas brand yang kuat, desain visual yang menarik, dan strategi komunikasi yang efektif.",
+      features: ["Brand Identity & Logo Design", "Visual Design & Graphics", "Marketing Materials", "UI/UX Design"],
     },
   ]
 
@@ -59,7 +59,7 @@ export default function ServicesSection() {
         {/* Header dengan Glass Effect */}
         <div className="text-center mb-16">
           <div>
-            <h2 className="text-4xl md:text-5x l font-bold bg-gradient-to-r from-white via-blue-100 to-green-100 bg-clip-text text-transparent mb-4">
+            <h2 className="text-4xl md:text-5xl font-bold bg-gradient-to-r from-white via-blue-100 to-green-100 bg-clip-text text-transparent mb-4">
               Our Services
             </h2>
             <p className="text-xl text-white/80 text-pretty max-w-3xl mx-auto leading-relaxed">
