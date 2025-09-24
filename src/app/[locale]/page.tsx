@@ -3,6 +3,7 @@ import Aurora from '../../components/aurora';
 import HeroSection from '../../components/sections/hero-section';
 import ServicesSection from '../../components/sections/services-section';
 import ProjectSection from '../../components/sections/project-section-new';
+import FaqSection from '../../components/sections/faq-section';
 import ContactSection from '../../components/sections/contact-section-new';
 import Footer from '../../components/sections/footer';
 import LogoSection from '../../components/sections/logo-sections';
@@ -31,6 +32,7 @@ export default async function Home({
       <ServicesSection />
       <ProjectSection />
       <LogoSection />
+      <FaqSection />
       <ContactSection />
       <Footer />
       {/* Section lain bisa ditambah di sini */}

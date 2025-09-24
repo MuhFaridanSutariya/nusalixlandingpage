@@ -33,6 +33,15 @@ export default function HeroSection() {
                         </span>
                     </motion.div>
 
+                    <motion.div
+                        className="text-sm md:text-base text-white/60 mb-4"
+                        initial={{ opacity: 0, y: 20 }}
+                        animate={{ opacity: 1, y: 0 }}
+                        transition={{ duration: 0.8, delay: 1.5, ease: "easeOut" }}
+                    >
+                        Based in East Borneo, Indonesia
+                    </motion.div>
+
                     <motion.p
                         className="text-xl text-white/80 text-pretty mb-8 max-w-2xl mx-auto"
                         initial={{ opacity: 0, y: 30 }}

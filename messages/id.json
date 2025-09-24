@@ -16,7 +16,7 @@
       "Kecerdasan Buatan",
       "Pengembangan Perangkat Lunak"
     ],
-    "description": "Kami mengkhususkan diri dalam Manajemen Data, Kecerdasan Buatan, dan Pengembangan Perangkat Lunak untuk membantu bisnis Anda berkembang di era digital.",
+    "description": "Kami menyediakan solusi teknologi inovatif yang dirancang khusus untuk membantu bisnis Anda berkembang dan unggul di era digital.",
     "ctaStart": "Mulai Sekarang",
     "ctaWork": "Lihat Karya Kami",
     "cards": {
@@ -109,55 +109,55 @@
         "title": "Healthmate – Dokter dalam Genggaman",
         "description": "Aplikasi pintar untuk booking dokter dan rekomendasi tenaga medis terbaik sesuai kebutuhan kesehatan Anda.",
         "technologies": ["Mobile Apps", "AI Recommendation System", "Telemedicine"],
-        "category": "Healthmate"
+        "category": "Healthcare"
       },
       {
         "title": "Si Tani – Pertanian Cerdas untuk Kota Modern",
         "description": "Platform smart city untuk membantu petani dalam perencanaan, pemantauan, dan distribusi hasil tani secara efisien.",
         "technologies": ["IoT Sensor", "Mobile App", "Dashboard Analitik"],
-        "category": "Si Tani (Smart City)"
+        "category": "Smart City"
       },
       {
         "title": "Pengaduan Masyarakat Berbasis WA (Berau AI)",
         "description": "Saluran aduan publik berbasis AI di WhatsApp untuk respons cepat dan transparan.",
         "technologies": ["WhatsApp API", "Chatbot AI", "Dashboard Monitoring"],
-        "category": "Layanan Masyarakat"
+        "category": "Public Services"
       },
       {
         "title": "Bank Sampah Digital Berbasis Android",
         "description": "Program pengelolaan sampah dengan sistem tabungan, menukar sampah menjadi nilai ekonomis.",
         "technologies": ["Mobile App", "RFID Card", "Database Management"],
-        "category": "Layanan Masyarakat"
+        "category": "Public Services"
       },
       {
         "title": "Absensi Cerdas dengan AI & IoT",
         "description": "Sistem absensi modern dengan AI Camera dan sensor sidik jari berbasis IoT untuk keamanan dan efisiensi.",
         "technologies": ["AI Camera", "IoT Fingerprint Sensor", "Cloud Database"],
-        "category": "Perangkat Umum"
+        "category": "General Devices"
       },
       {
         "title": "Smart Monitoring Siswa",
         "description": "Solusi digital untuk memantau kehadiran, aktivitas, dan perkembangan siswa secara real-time.",
         "technologies": ["Mobile Application", "Database Management"],
-        "category": "Pendidikan"
+        "category": "Education"
       },
       {
         "title": "Deteksi K3 untuk Lingkungan Kerja Aman",
         "description": "Sistem deteksi otomatis untuk mendukung penerapan K3, mencegah kecelakaan kerja lebih dini.",
         "technologies": ["AI Camera", "IoT Sensor", "Safety Analytics"],
-        "category": "K3 Detections"
+        "category": "Safety & K3"
       },
       {
         "title": "Manajemen Data Terintegrasi",
         "description": "Mengumpulkan, menyimpan, dan menganalisis data dari IoT, database, hingga berkas manual secara terpusat.",
         "technologies": ["Data Lake", "Database System", "ETL Tools", "Data Warehouse"],
-        "category": "Data Management"
+        "category": "Data Solutions"
       },
       {
         "title": "Ngantuk Detection (Microsleep & Distraksi)",
         "description": "Teknologi deteksi microsleep & distraksi berbasis AI untuk menjaga keselamatan dan produktivitas kerja.",
         "technologies": ["AI Camera", "Wearable Device", "Real-time Alert System"],
-        "category": "Perangkat Umum"
+        "category": "General Devices"
       }
     ]
   },
@@ -184,6 +184,36 @@
     ],
     "operatingHours": "Jam Operasional",
     "support247": "Dukungan 24/7, Sepanjang Tahun"
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "subtitle": "Pertanyaan yang sering diajukan tentang layanan dan proses kami",
+    "list": [
+      {
+        "question": "Bagaimana proses pengembangan solusi digital?",
+        "answer": "Kami memulai dengan memahami brand dan tujuan bisnis Anda, lalu membuat desain serta rancangan solusi yang sesuai dengan visi Anda. Setelah disetujui, kami membangun sistem dengan kode yang bersih, scalable, dan memastikan semua fitur diuji sepenuhnya sebelum diluncurkan."
+      },
+      {
+        "question": "Bagaimana jika saya ingin menambahkan fitur baru?",
+        "answer": "Setiap solusi dirancang dengan prinsip skalabilitas, sehingga memudahkan penambahan fitur baru maupun perubahan seiring pertumbuhan bisnis Anda. Kami juga menyediakan paket dukungan berkelanjutan jika Anda ingin kami yang menangani pembaruan tersebut."
+      },
+      {
+        "question": "Apakah solusi yang dikembangkan mobile-friendly?",
+        "answer": "Kami menggunakan teknik responsive design dan melakukan pengujian menyeluruh pada berbagai perangkat serta ukuran layar. Dengan begitu, solusi digital Anda tetap tampil menarik dan optimal, diakses dari perangkat apapun."
+      },
+      {
+        "question": "Apakah Anda menawarkan layanan AI, Data Management, Software Development?",
+        "answer": "Ya, kami mengintegrasikan solusi AI, manajemen data, dan pengembangan software sesuai kebutuhan bisnis Anda. Untuk strategi yang lebih kompleks, kami juga menyediakan paket khusus yang dapat disesuaikan agar mendukung pertumbuhan dan efisiensi operasional."
+      },
+      {
+        "question": "Apakah ada layanan Generative AI?",
+        "answer": "Ya, kami membangun solusi Generative AI yang dapat membantu otomatisasi konten, personalisasi pengalaman pengguna, hingga pembuatan materi kreatif seperti teks, gambar, dan dokumen. Kami juga merancang sistem Agentic yang mampu melakukan reasoning, beradaptasi dengan konteks, serta menjalankan tugas secara otonom untuk meningkatkan produktivitas bisnis Anda."
+      },
+      {
+        "question": "Bagaimana dukungan untuk Data Infrastructure?",
+        "answer": "Kami menyediakan layanan Data Infrastructure yang mencakup perancangan, implementasi, dan optimasi arsitektur data modern. Mulai dari data pipeline, integrasi multi-sumber, hingga penyimpanan skala besar, semua didesain agar data Anda lebih mudah diakses, aman, dan siap digunakan untuk analitik maupun AI."
+      }
+    ]
   },
   "footer": {
     "email": "Email",

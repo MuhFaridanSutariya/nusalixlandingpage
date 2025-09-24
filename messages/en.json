@@ -16,7 +16,7 @@
       "Artificial Intelligence",
       "Software Development"
     ],
-    "description": "We specialize in Data Management, Artificial Intelligence, and Software Development to help your business thrive in the digital era.",
+    "description": "We provide innovative technology solutions specifically designed to help your business grow and excel in the digital era.",
     "ctaStart": "Get Started Now",
     "ctaWork": "View Our Work",
     "cards": {
@@ -109,13 +109,13 @@
         "title": "Healthmate – Doctor in Your Pocket",
         "description": "Smart application for booking doctors and recommending the best medical professionals according to your health needs.",
         "technologies": ["Mobile Apps", "AI Recommendation System", "Telemedicine"],
-        "category": "Healthmate"
+        "category": "Healthcare"
       },
       {
         "title": "Si Tani – Smart Agriculture for Modern Cities",
         "description": "Smart city platform to help farmers in planning, monitoring, and distributing agricultural products efficiently.",
         "technologies": ["IoT Sensor", "Mobile App", "Analytics Dashboard"],
-        "category": "Si Tani (Smart City)"
+        "category": "Smart City"
       },
       {
         "title": "WhatsApp-Based Public Complaints (Berau AI)",
@@ -145,13 +145,13 @@
         "title": "K3 Detection for Safe Work Environment",
         "description": "Automatic detection system to support K3 implementation, preventing workplace accidents early.",
         "technologies": ["AI Camera", "IoT Sensor", "Safety Analytics"],
-        "category": "K3 Detection"
+        "category": "Safety & K3"
       },
       {
         "title": "Integrated Data Management",
         "description": "Collecting, storing, and analyzing data from IoT, databases, to manual files in a centralized manner.",
         "technologies": ["Data Lake", "Database System", "ETL Tools", "Data Warehouse"],
-        "category": "Data Management"
+        "category": "Data Solutions"
       },
       {
         "title": "Drowsiness Detection (Microsleep & Distraction)",
@@ -184,6 +184,36 @@
     ],
     "operatingHours": "Operating Hours",
     "support247": "24/7 Support, All Year Round"
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "subtitle": "Common questions about our services and processes",
+    "list": [
+      {
+        "question": "How is the digital solution development process?",
+        "answer": "We start by understanding your brand and business goals, then create designs and solution blueprints that align with your vision. Once approved, we build the system with clean, scalable code and ensure all features are thoroughly tested before launch."
+      },
+      {
+        "question": "What if I want to add new features later?",
+        "answer": "Every solution is designed with scalability in mind, making it easy to add new features or make changes as your business grows. We also provide ongoing support packages if you'd like us to handle those updates."
+      },
+      {
+        "question": "Are the solutions mobile-friendly?",
+        "answer": "We use responsive design techniques and conduct thorough testing across various devices and screen sizes. This ensures your digital solution remains attractive and optimal when accessed from any device."
+      },
+      {
+        "question": "Do you offer AI, Data Management, Software Development services?",
+        "answer": "Yes, we integrate AI solutions, data management, and software development according to your business needs. For more complex strategies, we also provide custom packages that can be tailored to support growth and operational efficiency."
+      },
+      {
+        "question": "Do you have Generative AI services?",
+        "answer": "Yes, we build Generative AI solutions that can help with content automation, user experience personalization, and creative material generation like text, images, and documents. We also design Agentic Systems capable of reasoning, adapting to context, and executing tasks autonomously to increase your business productivity."
+      },
+      {
+        "question": "How do you support Data Infrastructure?",
+        "answer": "We provide Data Infrastructure services covering design, implementation, and optimization of modern data architecture. From data pipelines, multi-source integration, to large-scale storage, everything is designed to make your data more accessible, secure, and ready for analytics or AI."
+      }
+    ]
   },
   "footer": {
     "email": "Email",
