@@ -1,11 +1,17 @@
 "use client"
 
+import { useTranslations } from "next-intl"
 import { Button } from "../ui/button"
 import { ArrowRight, Code, Database, Brain } from "lucide-react"
 import { motion } from "framer-motion"
 import TextType from "../TextType" // Import TextType
 
 export default function HeroSection() {
+    const t = useTranslations('hero')
+
+    // Debug: log current locale and a sample translation
+    console.log('Hero Section - Current translation for title:', t('title'))
+
     return (
         <section className="relative py-20 lg:py-32 overflow-hidden">
             <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative">
@@ -17,13 +23,9 @@ export default function HeroSection() {
                         transition={{ duration: 0.8, ease: "easeOut" }}
                     >
                         <span>
-                            Jadikan teknologi sebagai keunggulan kompetitif Anda dengan <br /> {" "}
+                            {t('title')} <br /> {" "}
                             <TextType
-                                text={[
-                                    "Manajemen Data",
-                                    "Kecerdasan Buatan",
-                                    "Pengembangan Perangkat Lunak",
-                                ]}
+                                text={t.raw('typewriter')}
                                 typingSpeed={100}
                                 loop
                                 className="gradient-text text-xl md:text-4xl font-bold"
@@ -37,7 +39,7 @@ export default function HeroSection() {
                         animate={{ opacity: 1, y: 0 }}
                         transition={{ duration: 0.8, delay: 2, ease: "easeOut" }}
                     >
-                        Kami mengkhususkan diri dalam Manajemen Data, Kecerdasan Buatan, dan Pengembangan Perangkat Lunak untuk membantu bisnis Anda berkembang di era digital.
+{t('description')}
                     </motion.p>
 
                     <motion.div
@@ -49,16 +51,18 @@ export default function HeroSection() {
                         <Button
                             size="lg"
                             className="bg-primary text-primary-foreground hover:bg-primary/90 transition-all duration-300 pulse-glow"
+                            onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}
                         >
-                            Mulai Sekarang
+                            {t('ctaStart')}
                             <ArrowRight className="ml-2 h-5 w-5" />
                         </Button>
                         <Button
                             size="lg"
                             variant="outline"
                             className="border-2 border-white/30 bg-white/10 backdrop-blur-sm text-white hover:bg-white/20 transition-all duration-300"
+                            onClick={() => document.getElementById('projects')?.scrollIntoView({ behavior: 'smooth' })}
                         >
-                            Lihat Karya Kami
+                            {t('ctaWork')}
                         </Button>
                     </motion.div>
 
@@ -82,9 +86,9 @@ export default function HeroSection() {
                             >
                                 <Database className="h-8 w-8 text-primary" />
                             </motion.div>
-                            <h3 className="font-semibold text-lg mb-3 glass-card-heading">Manajemen Data</h3>
+                            <h3 className="font-semibold text-lg mb-3 glass-card-heading">{t('cards.dataManagement.title')}</h3>
                             <p className="text-muted-foreground text-center leading-relaxed">
-                                Optimalkan infrastruktur data Anda untuk mendapatkan wawasan dan kinerja yang lebih baik
+                                {t('cards.dataManagement.description')}
                             </p>
                         </motion.div>
 
@@ -102,9 +106,9 @@ export default function HeroSection() {
                             >
                                 <Brain className="h-8 w-8 text-secondary" />
                             </motion.div>
-                            <h3 className="font-semibold text-lg mb-3 glass-card-heading">Kecerdasan Buatan</h3>
+                            <h3 className="font-semibold text-lg mb-3 glass-card-heading">{t('cards.artificialIntelligence.title')}</h3>
                             <p className="text-muted-foreground text-center leading-relaxed">
-                                Manfaatkan AI untuk mengotomatisasi proses dan mendapatkan keunggulan kompetitif
+                                {t('cards.artificialIntelligence.description')}
                             </p>
                         </motion.div>
 
@@ -122,9 +126,9 @@ export default function HeroSection() {
                             >
                                 <Code className="h-8 w-8 text-accent" />
                             </motion.div>
-                            <h3 className="font-semibold text-lg mb-3 glass-card-heading">Pengembangan Perangkat Lunak</h3>
+                            <h3 className="font-semibold text-lg mb-3 glass-card-heading">{t('cards.softwareDevelopment.title')}</h3>
                             <p className="text-muted-foreground text-center leading-relaxed">
-                                Solusi perangkat lunak khusus yang disesuaikan dengan kebutuhan bisnis Anda
+                                {t('cards.softwareDevelopment.description')}
                             </p>
                         </motion.div>
                     </motion.div>

@@ -1,0 +1,200 @@
+{
+  "header": {
+    "logo": "NUSALIX TECH",
+    "navigation": {
+      "aboutUs": "Tentang Kami",
+      "services": "Layanan",
+      "projects": "Proyek",
+      "contact": "Kontak"
+    },
+    "getStarted": "Mulai Sekarang"
+  },
+  "hero": {
+    "title": "Jadikan teknologi sebagai keunggulan kompetitif Anda dengan",
+    "typewriter": [
+      "Manajemen Data",
+      "Kecerdasan Buatan",
+      "Pengembangan Perangkat Lunak"
+    ],
+    "description": "Kami mengkhususkan diri dalam Manajemen Data, Kecerdasan Buatan, dan Pengembangan Perangkat Lunak untuk membantu bisnis Anda berkembang di era digital.",
+    "ctaStart": "Mulai Sekarang",
+    "ctaWork": "Lihat Karya Kami",
+    "cards": {
+      "dataManagement": {
+        "title": "Manajemen Data",
+        "description": "Optimalkan infrastruktur data Anda untuk mendapatkan wawasan dan kinerja yang lebih baik"
+      },
+      "artificialIntelligence": {
+        "title": "Kecerdasan Buatan",
+        "description": "Manfaatkan AI untuk mengotomatisasi proses dan mendapatkan keunggulan kompetitif"
+      },
+      "softwareDevelopment": {
+        "title": "Pengembangan Perangkat Lunak",
+        "description": "Solusi perangkat lunak khusus yang disesuaikan dengan kebutuhan bisnis Anda"
+      }
+    }
+  },
+  "services": {
+    "title": "Layanan Kami",
+    "subtitle": "Kami menawarkan solusi teknologi komprehensif untuk membantu bisnis Anda berkembang di lanskap digital.",
+    "list": {
+      "dataManagement": {
+        "title": "Manajemen Data",
+        "description": "Solusi data komprehensif termasuk desain database, data warehousing, proses ETL, dan tata kelola data untuk membantu Anda membuat keputusan yang tepat.",
+        "features": [
+          "Desain & Optimisasi Database",
+          "Data Warehousing",
+          "Proses ETL/ELT",
+          "Tata Kelola Data"
+        ]
+      },
+      "artificialIntelligence": {
+        "title": "Kecerdasan Buatan",
+        "description": "Solusi AI canggih termasuk model pembelajaran mesin, pemrosesan bahasa alami, visi komputer, dan analitik prediktif.",
+        "features": [
+          "Model Machine Learning",
+          "Pemrosesan Bahasa Alami",
+          "Computer Vision",
+          "Analitik Prediktif"
+        ]
+      },
+      "softwareDevelopment": {
+        "title": "Pengembangan Perangkat Lunak",
+        "description": "Layanan pengembangan perangkat lunak khusus termasuk aplikasi web, aplikasi mobile, API, dan solusi enterprise yang disesuaikan dengan kebutuhan Anda.",
+        "features": [
+          "Aplikasi Web",
+          "Pengembangan Mobile",
+          "Pengembangan API",
+          "Solusi Enterprise"
+        ]
+      },
+      "iotIntegration": {
+        "title": "Integrasi IoT",
+        "description": "Solusi Internet of Things untuk menghubungkan perangkat, sensor, dan sistem untuk meningkatkan efisiensi operasional bisnis Anda.",
+        "features": [
+          "Integrasi Sensor & Perangkat",
+          "Monitoring Real-time",
+          "Otomasi Cerdas",
+          "Pengumpulan & Analisis Data"
+        ]
+      },
+      "gameDevelopment": {
+        "title": "Pengembangan Game",
+        "description": "Kami merancang dan membangun gim yang seru, stabil, dan siap rilis lintas platform—mulai dari prototipe hingga live-ops.",
+        "features": [
+          "Prototyping & Desain Game (GDD)",
+          "Unity/Unreal cross-platform build",
+          "Performa, QA & rilis toko",
+          "Multiplayer & backend (auth, matchmaking, leaderboard)"
+        ]
+      },
+      "brandingDesign": {
+        "title": "Jasa Branding & Desain",
+        "description": "Layanan kreatif untuk membangun identitas brand yang kuat, desain visual yang menarik, dan strategi komunikasi yang efektif.",
+        "features": [
+          "Identitas Brand & Desain Logo",
+          "Desain Visual & Grafis",
+          "Materi Pemasaran",
+          "Desain UI/UX"
+        ]
+      }
+    },
+    "learnMore": "Pelajari Lebih Lanjut"
+  },
+  "projects": {
+    "title": "Proyek Kami",
+    "subtitle": "Solusi nyata yang mentransformasi bisnis dan komunitas melalui teknologi inovatif",
+    "list": [
+      {
+        "title": "Healthmate – Dokter dalam Genggaman",
+        "description": "Aplikasi pintar untuk booking dokter dan rekomendasi tenaga medis terbaik sesuai kebutuhan kesehatan Anda.",
+        "technologies": ["Mobile Apps", "AI Recommendation System", "Telemedicine"],
+        "category": "Healthmate"
+      },
+      {
+        "title": "Si Tani – Pertanian Cerdas untuk Kota Modern",
+        "description": "Platform smart city untuk membantu petani dalam perencanaan, pemantauan, dan distribusi hasil tani secara efisien.",
+        "technologies": ["IoT Sensor", "Mobile App", "Dashboard Analitik"],
+        "category": "Si Tani (Smart City)"
+      },
+      {
+        "title": "Pengaduan Masyarakat Berbasis WA (Berau AI)",
+        "description": "Saluran aduan publik berbasis AI di WhatsApp untuk respons cepat dan transparan.",
+        "technologies": ["WhatsApp API", "Chatbot AI", "Dashboard Monitoring"],
+        "category": "Layanan Masyarakat"
+      },
+      {
+        "title": "Bank Sampah Digital Berbasis Android",
+        "description": "Program pengelolaan sampah dengan sistem tabungan, menukar sampah menjadi nilai ekonomis.",
+        "technologies": ["Mobile App", "RFID Card", "Database Management"],
+        "category": "Layanan Masyarakat"
+      },
+      {
+        "title": "Absensi Cerdas dengan AI & IoT",
+        "description": "Sistem absensi modern dengan AI Camera dan sensor sidik jari berbasis IoT untuk keamanan dan efisiensi.",
+        "technologies": ["AI Camera", "IoT Fingerprint Sensor", "Cloud Database"],
+        "category": "Perangkat Umum"
+      },
+      {
+        "title": "Smart Monitoring Siswa",
+        "description": "Solusi digital untuk memantau kehadiran, aktivitas, dan perkembangan siswa secara real-time.",
+        "technologies": ["Mobile Application", "Database Management"],
+        "category": "Pendidikan"
+      },
+      {
+        "title": "Deteksi K3 untuk Lingkungan Kerja Aman",
+        "description": "Sistem deteksi otomatis untuk mendukung penerapan K3, mencegah kecelakaan kerja lebih dini.",
+        "technologies": ["AI Camera", "IoT Sensor", "Safety Analytics"],
+        "category": "K3 Detections"
+      },
+      {
+        "title": "Manajemen Data Terintegrasi",
+        "description": "Mengumpulkan, menyimpan, dan menganalisis data dari IoT, database, hingga berkas manual secara terpusat.",
+        "technologies": ["Data Lake", "Database System", "ETL Tools", "Data Warehouse"],
+        "category": "Data Management"
+      },
+      {
+        "title": "Ngantuk Detection (Microsleep & Distraksi)",
+        "description": "Teknologi deteksi microsleep & distraksi berbasis AI untuk menjaga keselamatan dan produktivitas kerja.",
+        "technologies": ["AI Camera", "Wearable Device", "Real-time Alert System"],
+        "category": "Perangkat Umum"
+      }
+    ]
+  },
+  "contact": {
+    "title": "Hubungi Kami",
+    "subtitle": "Siap mentransformasi bisnis Anda dengan teknologi? Hubungi tim kami untuk mendiskusikan kebutuhan proyek Anda.",
+    "letConnect": "Mari Terhubung",
+    "copyEmail": "Salin Alamat Email",
+    "generalConsultation": "Konsultasi Umum",
+    "chatWhatsApp": "Chat via WhatsApp",
+    "requestQuote": "Minta Penawaran Proyek",
+    "getPriceWhatsApp": "Dapatkan harga via WhatsApp",
+    "businessPartnership": "Kemitraan Bisnis",
+    "collaborateWhatsApp": "Kolaborasi via WhatsApp",
+    "directCall": "Telepon Langsung",
+    "whatsappNote": "🔗 Link WhatsApp langsung ke aplikasi • 📧 Email dapat disalin untuk kemudahan Anda",
+    "email": "Email",
+    "phone": "Telepon",
+    "office": "Kantor",
+    "offices": [
+      "Berau, Kalimantan Timur, Indonesia",
+      "Sangatta, Kalimantan Timur, Indonesia",
+      "Balikapapan, Kalimantan Timur, Indonesia"
+    ],
+    "operatingHours": "Jam Operasional",
+    "support247": "Dukungan 24/7, Sepanjang Tahun"
+  },
+  "footer": {
+    "email": "Email",
+    "phone": "Telepon",
+    "office": "Kantor",
+    "offices": [
+      "Berau, Kalimantan Timur, Indonesia",
+      "Sangatta, Kalimantan Timur, Indonesia",
+      "Balikapapan, Kalimantan Timur, Indonesia"
+    ],
+    "operatingHours": "Jam Operasional",
+    "support247": "Dukungan 24/7, Sepanjang Tahun"
+  }
+}

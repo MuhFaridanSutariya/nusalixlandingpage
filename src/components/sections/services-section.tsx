@@ -1,49 +1,36 @@
+"use client"
+
+import { useTranslations } from "next-intl"
 import { Button } from "../ui/button"
 import { Database, Brain, Code, Wifi, Palette, Gamepad } from "lucide-react"
 
 export default function ServicesSection() {
+  const t = useTranslations('services')
+
   const services = [
     {
       icon: Database,
-      title: "Data Management",
-      description:
-        "Comprehensive data solutions including database design, data warehousing, ETL processes, and data governance to help you make informed decisions.",
-      features: ["Database Design & Optimization", "Data Warehousing", "ETL/ELT Processes", "Data Governance"],
+      key: "dataManagement"
     },
     {
       icon: Brain,
-      title: "Artificial Intelligence",
-      description:
-        "Advanced AI solutions including machine learning models, natural language processing, computer vision, and predictive analytics.",
-      features: ["Machine Learning Models", "Natural Language Processing", "Computer Vision", "Predictive Analytics"],
+      key: "artificialIntelligence"
     },
     {
       icon: Code,
-      title: "Software Development",
-      description:
-        "Custom software development services including web applications, mobile apps, APIs, and enterprise solutions tailored to your needs.",
-      features: ["Web Applications", "Mobile Development", "API Development", "Enterprise Solutions"],
+      key: "softwareDevelopment"
     },
     {
       icon: Wifi,
-      title: "Integrasi IoT",
-      description:
-        "Solusi Internet of Things untuk menghubungkan perangkat, sensor, dan sistem untuk meningkatkan efisiensi operasional bisnis Anda.",
-      features: ["Sensor & Device Integration", "Real-time Monitoring", "Smart Automation", "Data Collection & Analytics"],
+      key: "iotIntegration"
     },
     {
       icon: Gamepad,
-      title: "Game Development",
-      description:
-        "Kami merancang dan membangun gim yang seru, stabil, dan siap rilis lintas platform—mulai dari prototipe hingga live-ops.",
-      features: ["Prototyping & Game Design (GDD)", "Unity/Unreal cross-platform build", "Performance, QA & store release", "Multiplayer & backend (auth, matchmaking, leaderboard)"],
+      key: "gameDevelopment"
     },
     {
       icon: Palette,
-      title: "Jasa Branding & Design",
-      description:
-        "Layanan kreatif untuk membangun identitas brand yang kuat, desain visual yang menarik, dan strategi komunikasi yang efektif.",
-      features: ["Brand Identity & Logo Design", "Visual Design & Graphics", "Marketing Materials", "UI/UX Design"],
+      key: "brandingDesign"
     },
   ]
 
@@ -60,10 +47,10 @@ export default function ServicesSection() {
         <div className="text-center mb-16">
           <div>
             <h2 className="text-4xl md:text-5xl font-bold bg-gradient-to-r from-white via-blue-100 to-green-100 bg-clip-text text-transparent mb-4">
-              Our Services
+              {t('title')}
             </h2>
             <p className="text-xl text-white/80 text-pretty max-w-3xl mx-auto leading-relaxed">
-              We offer comprehensive technology solutions to help your business thrive in the digital landscape.
+              {t('subtitle')}
             </p>
           </div>
         </div>
@@ -89,15 +76,15 @@ export default function ServicesSection() {
 
                 {/* Content */}
                 <h3 className="text-2xl font-bold mb-4 text-white [text-shadow:0_2px_10px_rgba(0,0,0,0.3)]">
-                  {service.title}
+                  {t(`list.${service.key}.title`)}
                 </h3>
                 <p className="text-white/80 mb-6 leading-relaxed flex-1 [text-shadow:0_1px_5px_rgba(0,0,0,0.2)]">
-                  {service.description}
+                  {t(`list.${service.key}.description`)}
                 </p>
 
                 {/* Features List */}
                 <ul className="space-y-3 mb-8">
-                  {service.features.map((feature, featureIndex) => (
+                  {t.raw(`list.${service.key}.features`).map((feature: string, featureIndex: number) => (
                     <li key={featureIndex} className="flex items-center text-sm text-white/90">
                       <div className="h-2 w-2 rounded-full bg-gradient-to-r from-blue-400 to-green-400 mr-3 shadow-sm" />
                       <span className="[text-shadow:0_1px_3px_rgba(0,0,0,0.2)]">{feature}</span>
@@ -112,7 +99,7 @@ export default function ServicesSection() {
                     variant="outline"
                     className="relative w-full bg-white/20 backdrop-blur-sm border-2 border-white/30 text-white font-semibold hover:bg-white/30 hover:border-white/50 hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-xl"
                   >
-                    Learn More
+                    {t('learnMore')}
                   </Button>
                 </div>
               </div>

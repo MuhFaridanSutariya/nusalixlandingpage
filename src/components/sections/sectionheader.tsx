@@ -2,12 +2,16 @@
 
 import { useState } from "react"
 import Link from "next/link"
+import Image from "next/image"
+import { useTranslations } from "next-intl"
 import { Button } from "../ui/button"
 import { Menu, X } from "lucide-react"
 import { motion, AnimatePresence } from "framer-motion"
+import LanguageSwitcher from "../LanguageSwitcher"
 
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
+  const t = useTranslations('header')
 
   return (
     <motion.header
@@ -20,33 +24,43 @@ export default function Header() {
         <div className="flex h-16 items-center justify-between">
           <div className="flex items-center">
             <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
-              <Link href="/" className="flex items-center space-x-2">
+              <Link href="/" className="flex items-center space-x-3">
                 <motion.div
-                  className="h-8 w-8 rounded-lg bg-gradient-to-br from-primary to-secondary flex items-center justify-center shadow-lg pulse-glow"
-                  whileHover={{ rotate: 360 }}
-                  transition={{ duration: 0.5 }}
+                  className="h-16 w-20 flex items-center justify-center ml-6"
+                  whileHover={{ scale: 1.1, rotate: 5 }}
+                  transition={{ duration: 0.3 }}
                 >
-                  <span className="text-white font-bold text-lg">T</span>
+                  <Image
+                    src="/images/logonew.png"
+                    alt="Nusalix Technology Logo"
+                    width={64}
+                    height={64}
+                    className="w-36 h-8"
+                  />
                 </motion.div>
-                <span className="font-bold text-xl text-foreground">NUSALIX TECH</span>
               </Link>
             </motion.div>
           </div>
 
           {/* Desktop Navigation */}
-          <nav className="hidden md:flex items-center space-x-8">
-            {["About Us", "Services", "Projects", "Contact"].map((item, index) => (
+          <nav className="hidden md:flex items-center space-x-6">
+            {[
+              { key: "aboutUs", label: t('navigation.aboutUs') },
+              { key: "services", label: t('navigation.services') },
+              { key: "projects", label: t('navigation.projects') },
+              { key: "contact", label: t('navigation.contact') }
+            ].map((item, index) => (
               <motion.div
-                key={item}
+                key={item.key}
                 initial={{ opacity: 0, y: -20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.5, delay: 0.1 * index }}
               >
                 <Link
-                  href={`#${item.toLowerCase().replace(" ", "")}`}
+                  href={`#${item.key.toLowerCase().replace(" ", "")}`}
                   className="text-muted-foreground hover:text-primary transition-all duration-300 hover:scale-105"
                 >
-                  {item}
+                  {item.label}
                 </Link>
               </motion.div>
             ))}
@@ -57,14 +71,19 @@ export default function Header() {
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
             >
-              <Button className="glass-strong bg-gradient-to-r from-primary to-secondary hover:from-primary/80 hover:to-secondary/80 transition-all duration-300 shadow-lg pulse-glow">
-                Get Started
+              <Button
+                className="glass-strong bg-gradient-to-r from-primary to-secondary hover:from-primary/80 hover:to-secondary/80 transition-all duration-300 shadow-lg pulse-glow"
+                onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}
+              >
+                {t('getStarted')}
               </Button>
             </motion.div>
+            <LanguageSwitcher />
           </nav>
 
-          {/* Mobile menu button */}
-          <div className="md:hidden">
+          {/* Mobile menu button & Language Switcher */}
+          <div className="md:hidden flex items-center space-x-2">
+            <LanguageSwitcher />
             <motion.div whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }}>
               <Button
                 variant="ghost"
@@ -89,18 +108,23 @@ export default function Header() {
               transition={{ duration: 0.3 }}
             >
               <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3 border-t border-white/10 glass-card rounded-b-lg mt-2">
-                {["About Us", "Services", "Projects", "Contact", "FAQ"].map((item, index) => (
+                {[
+                  { key: "aboutUs", label: t('navigation.aboutUs') },
+                  { key: "services", label: t('navigation.services') },
+                  { key: "projects", label: t('navigation.projects') },
+                  { key: "contact", label: t('navigation.contact') }
+                ].map((item, index) => (
                   <motion.div
-                    key={item}
+                    key={item.key}
                     initial={{ opacity: 0, x: -20 }}
                     animate={{ opacity: 1, x: 0 }}
                     transition={{ duration: 0.3, delay: 0.1 * index }}
                   >
                     <Link
-                      href={`#${item.toLowerCase().replace(" ", "")}`}
+                      href={`#${item.key.toLowerCase().replace(" ", "")}`}
                       className="block px-3 py-2 text-muted-foreground hover:text-foreground"
                     >
-                      {item}
+                      {item.label}
                     </Link>
                   </motion.div>
                 ))}
@@ -110,8 +134,11 @@ export default function Header() {
                   animate={{ opacity: 1, y: 0 }}
                   transition={{ duration: 0.3, delay: 0.5 }}
                 >
-                  <Button className="w-full glass-strong bg-gradient-to-r from-primary to-secondary hover:from-primary/80 hover:to-secondary/80 transition-all duration-300">
-                    Get Started
+                  <Button
+                    className="w-full glass-strong bg-gradient-to-r from-primary to-secondary hover:from-primary/80 hover:to-secondary/80 transition-all duration-300"
+                    onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}
+                  >
+                    {t('getStarted')}
                   </Button>
                 </motion.div>
               </div>

@@ -1,0 +1,200 @@
+{
+  "header": {
+    "logo": "NUSALIX TECH",
+    "navigation": {
+      "aboutUs": "About Us",
+      "services": "Services",
+      "projects": "Projects",
+      "contact": "Contact"
+    },
+    "getStarted": "Get Started"
+  },
+  "hero": {
+    "title": "Make technology your competitive advantage with",
+    "typewriter": [
+      "Data Management",
+      "Artificial Intelligence",
+      "Software Development"
+    ],
+    "description": "We specialize in Data Management, Artificial Intelligence, and Software Development to help your business thrive in the digital era.",
+    "ctaStart": "Get Started Now",
+    "ctaWork": "View Our Work",
+    "cards": {
+      "dataManagement": {
+        "title": "Data Management",
+        "description": "Optimize your data infrastructure to gain better insights and performance"
+      },
+      "artificialIntelligence": {
+        "title": "Artificial Intelligence",
+        "description": "Leverage AI to automate processes and gain competitive advantage"
+      },
+      "softwareDevelopment": {
+        "title": "Software Development",
+        "description": "Custom software solutions tailored to your business needs"
+      }
+    }
+  },
+  "services": {
+    "title": "Our Services",
+    "subtitle": "We offer comprehensive technology solutions to help your business thrive in the digital landscape.",
+    "list": {
+      "dataManagement": {
+        "title": "Data Management",
+        "description": "Comprehensive data solutions including database design, data warehousing, ETL processes, and data governance to help you make informed decisions.",
+        "features": [
+          "Database Design & Optimization",
+          "Data Warehousing",
+          "ETL/ELT Processes",
+          "Data Governance"
+        ]
+      },
+      "artificialIntelligence": {
+        "title": "Artificial Intelligence",
+        "description": "Advanced AI solutions including machine learning models, natural language processing, computer vision, and predictive analytics.",
+        "features": [
+          "Machine Learning Models",
+          "Natural Language Processing",
+          "Computer Vision",
+          "Predictive Analytics"
+        ]
+      },
+      "softwareDevelopment": {
+        "title": "Software Development",
+        "description": "Custom software development services including web applications, mobile apps, APIs, and enterprise solutions tailored to your needs.",
+        "features": [
+          "Web Applications",
+          "Mobile Development",
+          "API Development",
+          "Enterprise Solutions"
+        ]
+      },
+      "iotIntegration": {
+        "title": "IoT Integration",
+        "description": "Internet of Things solutions to connect devices, sensors, and systems to improve your business operational efficiency.",
+        "features": [
+          "Sensor & Device Integration",
+          "Real-time Monitoring",
+          "Smart Automation",
+          "Data Collection & Analytics"
+        ]
+      },
+      "gameDevelopment": {
+        "title": "Game Development",
+        "description": "We design and build exciting, stable, and release-ready games across platforms—from prototype to live-ops.",
+        "features": [
+          "Prototyping & Game Design (GDD)",
+          "Unity/Unreal cross-platform build",
+          "Performance, QA & store release",
+          "Multiplayer & backend (auth, matchmaking, leaderboard)"
+        ]
+      },
+      "brandingDesign": {
+        "title": "Branding & Design Services",
+        "description": "Creative services to build strong brand identity, attractive visual design, and effective communication strategies.",
+        "features": [
+          "Brand Identity & Logo Design",
+          "Visual Design & Graphics",
+          "Marketing Materials",
+          "UI/UX Design"
+        ]
+      }
+    },
+    "learnMore": "Learn More"
+  },
+  "projects": {
+    "title": "Our Projects",
+    "subtitle": "Real solutions that transform businesses and communities through innovative technology",
+    "list": [
+      {
+        "title": "Healthmate – Doctor in Your Pocket",
+        "description": "Smart application for booking doctors and recommending the best medical professionals according to your health needs.",
+        "technologies": ["Mobile Apps", "AI Recommendation System", "Telemedicine"],
+        "category": "Healthmate"
+      },
+      {
+        "title": "Si Tani – Smart Agriculture for Modern Cities",
+        "description": "Smart city platform to help farmers in planning, monitoring, and distributing agricultural products efficiently.",
+        "technologies": ["IoT Sensor", "Mobile App", "Analytics Dashboard"],
+        "category": "Si Tani (Smart City)"
+      },
+      {
+        "title": "WhatsApp-Based Public Complaints (Berau AI)",
+        "description": "AI-based public complaint channel on WhatsApp for quick and transparent responses.",
+        "technologies": ["WhatsApp API", "AI Chatbot", "Monitoring Dashboard"],
+        "category": "Public Services"
+      },
+      {
+        "title": "Android-Based Digital Waste Bank",
+        "description": "Waste management program with savings system, converting waste into economic value.",
+        "technologies": ["Mobile App", "RFID Card", "Database Management"],
+        "category": "Public Services"
+      },
+      {
+        "title": "Smart Attendance with AI & IoT",
+        "description": "Modern attendance system with AI Camera and IoT-based fingerprint sensors for security and efficiency.",
+        "technologies": ["AI Camera", "IoT Fingerprint Sensor", "Cloud Database"],
+        "category": "General Devices"
+      },
+      {
+        "title": "Smart Student Monitoring",
+        "description": "Digital solution to monitor student attendance, activities, and development in real-time.",
+        "technologies": ["Mobile Application", "Database Management"],
+        "category": "Education"
+      },
+      {
+        "title": "K3 Detection for Safe Work Environment",
+        "description": "Automatic detection system to support K3 implementation, preventing workplace accidents early.",
+        "technologies": ["AI Camera", "IoT Sensor", "Safety Analytics"],
+        "category": "K3 Detection"
+      },
+      {
+        "title": "Integrated Data Management",
+        "description": "Collecting, storing, and analyzing data from IoT, databases, to manual files in a centralized manner.",
+        "technologies": ["Data Lake", "Database System", "ETL Tools", "Data Warehouse"],
+        "category": "Data Management"
+      },
+      {
+        "title": "Drowsiness Detection (Microsleep & Distraction)",
+        "description": "AI-based microsleep & distraction detection technology to maintain work safety and productivity.",
+        "technologies": ["AI Camera", "Wearable Device", "Real-time Alert System"],
+        "category": "General Devices"
+      }
+    ]
+  },
+  "contact": {
+    "title": "Contact Us",
+    "subtitle": "Ready to transform your business with technology? Contact our team to discuss your project needs.",
+    "letConnect": "Let's Connect",
+    "copyEmail": "Copy Email Address",
+    "generalConsultation": "General Consultation",
+    "chatWhatsApp": "Chat via WhatsApp",
+    "requestQuote": "Request Project Quote",
+    "getPriceWhatsApp": "Get price via WhatsApp",
+    "businessPartnership": "Business Partnership",
+    "collaborateWhatsApp": "Collaborate via WhatsApp",
+    "directCall": "Direct Call",
+    "whatsappNote": "🔗 WhatsApp link directly to app • 📧 Email can be copied for your convenience",
+    "email": "Email",
+    "phone": "Phone",
+    "office": "Office",
+    "offices": [
+      "Berau, East Kalimantan, Indonesia",
+      "Sangatta, East Kalimantan, Indonesia",
+      "Balikpapan, East Kalimantan, Indonesia"
+    ],
+    "operatingHours": "Operating Hours",
+    "support247": "24/7 Support, All Year Round"
+  },
+  "footer": {
+    "email": "Email",
+    "phone": "Phone",
+    "office": "Office",
+    "offices": [
+      "Berau, East Kalimantan, Indonesia",
+      "Sangatta, East Kalimantan, Indonesia",
+      "Balikpapan, East Kalimantan, Indonesia"
+    ],
+    "operatingHours": "Operating Hours",
+    "support247": "24/7 Support, All Year Round"
+  }
+}

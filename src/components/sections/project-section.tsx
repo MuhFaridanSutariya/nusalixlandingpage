@@ -1,7 +1,11 @@
+"use client"
+
+import { useTranslations } from "next-intl"
 import { Button } from "../ui/button"
 import { Badge } from "../ui/badge"
 
 export default function ProjectsSection() {
+  const t = useTranslations('projects')
   const projects = [
     {
       title: "Healthmate – Dokter dalam Genggaman)",

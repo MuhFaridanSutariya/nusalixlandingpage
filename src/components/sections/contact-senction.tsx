@@ -1,10 +1,12 @@
 "use client"
 
 import { useState } from "react"
+import { useTranslations } from "next-intl"
 import { Button } from "../ui/button"
 import { Mail, Phone, MapPin, Clock, Copy, Check } from "lucide-react"
 
 export default function ContactSection() {
+  const t = useTranslations('contact')
   const [copied, setCopied] = useState(false)
 
   const copyEmail = async () => {
@@ -25,9 +27,9 @@ export default function ContactSection() {
 
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative">
         <div className="text-center mb-16">
-          <h2 className="text-3xl md:text-4xl font-bold text-balance mb-4">Hubungi Kami</h2>
+          <h2 className="text-3xl md:text-4xl font-bold text-balance mb-4">{t('title')}</h2>
           <p className="text-xl text-muted-foreground text-pretty max-w-3xl mx-auto leading-relaxed">
-            Siap mentransformasi bisnis Anda dengan teknologi? Hubungi tim kami untuk mendiskusikan kebutuhan proyek Anda.
+            {t('subtitle')}
           </p>
         </div> 
 
@@ -182,7 +184,7 @@ export default function ContactSection() {
                 <div>
                   <h3 className="font-semibold text-lg mb-2">Kantor</h3>
                   <p className="text-muted-foreground">Berau, Kalimantan Timur, Indonesia</p>
-                  <p className="text-muted-foreground">Sangata, Kalimantan Timur, Indonesia</p>
+                  <p className="text-muted-foreground">Sangatta, Kalimantan Timur, Indonesia</p>
                   <p className="text-muted-foreground">Balikapapan, Kalimantan Timur, Indonesia</p>
                 </div>
               </div>
