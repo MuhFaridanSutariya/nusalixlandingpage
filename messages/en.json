@@ -213,7 +213,12 @@
         "question": "How do you support Data Infrastructure?",
         "answer": "We provide Data Infrastructure services covering design, implementation, and optimization of modern data architecture. From data pipelines, multi-source integration, to large-scale storage, everything is designed to make your data more accessible, secure, and ready for analytics or AI."
       }
-    ]
+    ],
+    "contactSection": {
+      "title": "Still have questions?",
+      "description": "Don't hesitate to contact our team. We're ready to help you with any other questions or specific needs.",
+      "button": "Contact Us"
+    }
   },
   "footer": {
     "email": "Email",

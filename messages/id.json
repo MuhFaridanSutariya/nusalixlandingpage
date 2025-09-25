@@ -213,7 +213,12 @@
         "question": "Bagaimana dukungan untuk Data Infrastructure?",
         "answer": "Kami menyediakan layanan Data Infrastructure yang mencakup perancangan, implementasi, dan optimasi arsitektur data modern. Mulai dari data pipeline, integrasi multi-sumber, hingga penyimpanan skala besar, semua didesain agar data Anda lebih mudah diakses, aman, dan siap digunakan untuk analitik maupun AI."
       }
-    ]
+    ],
+    "contactSection": {
+      "title": "Masih ada pertanyaan lain?",
+      "description": "Jangan ragu untuk menghubungi tim kami. Kami siap membantu Anda dengan pertanyaan atau kebutuhan spesifik lainnya.",
+      "button": "Hubungi Kami"
+    }
   },
   "footer": {
     "email": "Email",

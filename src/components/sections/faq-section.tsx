@@ -110,13 +110,10 @@ export default function FaqSection() {
         >
           <div className="glass-card rounded-2xl p-8 max-w-2xl mx-auto">
             <h3 className="text-xl font-semibold mb-4 text-foreground">
-              {t.raw('list')[0] ? 'Masih ada pertanyaan lain?' : 'Still have questions?'}
+              {t('contactSection.title')}
             </h3>
             <p className="text-muted-foreground mb-6">
-              {t.raw('list')[0] ?
-                'Jangan ragu untuk menghubungi tim kami. Kami siap membantu Anda dengan pertanyaan atau kebutuhan spesifik lainnya.' :
-                "Don't hesitate to contact our team. We're ready to help you with any other questions or specific needs."
-              }
+              {t('contactSection.description')}
             </p>
             <motion.button
               className="bg-gradient-to-r from-primary to-secondary hover:from-primary/80 hover:to-secondary/80 text-white font-semibold py-3 px-8 rounded-xl transition-all duration-300 shadow-lg hover:shadow-primary/25"
@@ -124,7 +121,7 @@ export default function FaqSection() {
               whileTap={{ scale: 0.95 }}
               onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}
             >
-              {t.raw('list')[0] ? 'Hubungi Kami' : 'Contact Us'}
+              {t('contactSection.button')}
             </motion.button>
           </div>
         </motion.div>
